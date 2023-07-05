@@ -1,0 +1,53 @@
+.greetings_container {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    align-self: stretch;
+    gap: 28px;
+    height: auto;
+}
+.greetings_container h1, p {
+    max-width: 800px;
+    text-align: center;
+}
+.greetings_container h1 {
+    color: var(--secondar);
+    font-weight: 700;
+    font-size: 60px;
+}
+.greetings_container p {
+    color: #898989;
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 700;
+}
+.skills__list {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+}
+.skills__list__item {
+    display: flex;
+    gap: 5px;
+    justify-content:center;
+    align-items:center;
+    padding: 3px 8px;
+    border-radius: 3px;
+    background: var(--secondary-light);
+}
+.skills__list__item div {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+}
+.skills__list__item p {
+    display: inline;
+    color: var(--secondar);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}

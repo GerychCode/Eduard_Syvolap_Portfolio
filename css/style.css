@@ -1,0 +1,71 @@
+html.light {
+    --secondar: #111827;
+    --white: #F7F3F3;
+    --white-dark: #E3E8ED;
+    --background-color: #ffffff;
+    --secondary-light: #E3E8ED;
+    --scrollbar: #d7d7d7;
+}
+html.dark {
+    --secondar: #ffffff;
+    --white: #ad0a0a;
+    --white-dark: #0176e3;
+    --background-color: #111827;
+    --secondary-light: #172135;
+    --scrollbar: #090e15;
+}
+html svg [fill]:not([fill="none"]) {
+    fill: var(--secondar);
+}
+html svg [stroke]:not([stroke="none"]) {
+    stroke: var(--secondar);
+}
+body {
+    background-color: var(--background-color);
+}
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+[class*="_container"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6vw 25px;
+}
+.main-block {
+    flex: 1 1 auto;
+}
+.hidden{
+    display: none;
+}
+section>h1 {
+    color: var(--secondar);
+    font-size: 48px;
+    font-weight: 700;
+    width: 100%;
+    text-align: start;
+}
+section>h1>span {
+    color: #2563EB;
+}
+section>h1>span:hover {
+    text-decoration: underline;
+    color: rgba(37, 99, 235, 0.87);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar);
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    section>h1 {
+        text-align: center;
+    }
+}
