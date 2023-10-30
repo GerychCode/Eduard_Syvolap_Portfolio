@@ -37,7 +37,7 @@ body {
 .main-block {
     flex: 1 1 auto;
 }
-.hidden{
+.hidden {
     display: none;
 }
 section>h1 {

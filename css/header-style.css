@@ -30,7 +30,9 @@
     display: flex;
     gap: 24px;
 }
-.menu_item {}
+.menu_item>svg {
+    fill: var(--secondar);
+}
 .menu_item a {
     color: var(--secondar);
     font-family: 'Inter', sans-serif;

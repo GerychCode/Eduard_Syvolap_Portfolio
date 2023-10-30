@@ -1,22 +1,24 @@
 document.addEventListener("DOMContentLoaded", function() {
     const jsonData = [
         {
-            "title": "Lorem Ipsum",
+            "status": "development",
+            "title": "TinyLink",
             "date": "2023",
-            "previewImage": "sourse/img/last_work/Glib-Portfolio.png",
-            "tags": ["HTML", "Tailwind", "TypeScript", "Next.js"],
-            "githubLink": "https://github.com/GerychCode",
-            "websiteLink": "https://example.com",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+            "previewImage": "sourse/img/last_work/TinyLink.png",
+            "tags": ["JavaScript", "ReactJS", "Redux Toolkit", "Express", "MongoDB"],
+            "githubLink": "https://github.com/GerychCode/TinyLink-LinkShortener",
+            "websiteLink": "",
+            "description": "Full-Stack application, link shortener. Pat project, which is currently under development"
         },
         {
-            "title": "Lorem Ipsum",
+            "status": "Done",
+            "title": "BlockNFT UI",
             "date": "2023",
-            "previewImage": "sourse/img/last_work/Glib-Portfolio.png",
-            "tags": ["HTML", "CSS", "JavaScript"],
-            "githubLink": "https://github.com/ExampleUser",
-            "websiteLink": "https://example.com",
-            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. "
+            "previewImage": "sourse/img/last_work/BlockNft.jpg",
+            "tags": ["HTML", "Css", "JavaScript", "ReactJS"],
+            "githubLink": "https://github.com/GerychCode/BlockNFT_UI/",
+            "websiteLink": "https://gerychcode.github.io/BlockNFT_UI/",
+            "description": "A project created as part of the restoration of react js skills. The layout for the layout was taken from Figma community resources"
         },
     ];
 
